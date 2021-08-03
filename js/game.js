@@ -59,8 +59,7 @@ class Game{
                         fill("red") 
                         textSize(20)
                        //add code to display the player's name on the respective basket.
-                        text("NATHAN", player1.position.x, player1.position.y)
-                        text("unknown player", player1.position.x, player1.position.y)
+                       text(allPlayers[plr].name, x-25, y+25)
                          
                      }
                     
